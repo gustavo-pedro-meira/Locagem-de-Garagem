@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="685.0" prefWidth="296.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="locacaodegaragem.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="328.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/Fundo.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="WHITE" height="102.0" layoutX="96.0" layoutY="47.0" stroke="WHITE" strokeType="INSIDE" width="105.0" />
+      <ImageView fitHeight="228.0" fitWidth="184.0" layoutX="56.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/Logo.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="100.0" arcWidth="100.0" fill="WHITE" height="503.0" layoutX="-34.0" layoutY="183.0" stroke="WHITE" strokeType="INSIDE" width="330.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#d9d9d9" height="102.0" layoutX="42.0" layoutY="226.0" stroke="WHITE" strokeType="INSIDE" width="89.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#d9d9d9" height="102.0" layoutX="156.0" layoutY="226.0" stroke="WHITE" strokeType="INSIDE" width="89.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#d9d9d9" height="102.0" layoutX="42.0" layoutY="361.0" stroke="WHITE" strokeType="INSIDE" width="89.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#d9d9d9" height="102.0" layoutX="156.0" layoutY="361.0" stroke="WHITE" strokeType="INSIDE" width="89.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#d9d9d9" height="102.0" layoutX="42.0" layoutY="490.0" stroke="WHITE" strokeType="INSIDE" width="89.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#d9d9d9" height="102.0" layoutX="156.0" layoutY="490.0" stroke="WHITE" strokeType="INSIDE" width="89.0" />
+      <ImageView fitHeight="72.0" fitWidth="60.0" layoutX="56.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/Buscar%20Garargem.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="51.0" fitWidth="46.0" layoutX="178.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/Comentar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="46.0" layoutX="63.0" layoutY="382.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/Contato.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="69.0" layoutX="171.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/Cadastrar%20Carro.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="46.0" layoutX="178.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/Dados.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="46.0" layoutX="63.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/Sair.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="52.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buscar Garagem" wrappingWidth="89.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="179.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comentar" wrappingWidth="89.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="68.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contato" wrappingWidth="36.39996337890602">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="164.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registrar Veiculo" wrappingWidth="89.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="76.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sair" wrappingWidth="19.599975585937273">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="186.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dados" wrappingWidth="29.199951171874773">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#d9d9d9" height="38.0" layoutX="95.0" layoutY="624.0" stroke="WHITE" strokeType="INSIDE" width="105.0" />
+   </children>
+</AnchorPane>
